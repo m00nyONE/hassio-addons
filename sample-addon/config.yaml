@@ -1,0 +1,19 @@
+name: Sample Addon
+version": 1.0.0
+slug: sample-addon
+description: A simple Sample Addon
+url: https://github.com/m00nyONE/hassio-addons/tree/master/sample-addon
+arch: 
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+startup: services
+ports:
+  8080/tcp: 8080
+options:
+  test: "test"
+schema: 
+  test: "str"

@@ -1,0 +1,4 @@
+name: "Homeassistant Addons by m00nyONE"
+url: "https://github.com/m00nyONE/hassio-addons"
+maintainer: "m00nyONE"
+udev: true
